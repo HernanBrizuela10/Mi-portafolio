@@ -1,6 +1,57 @@
   section {
-            border: 2px black solid;
+            border: 4px red solid;
             margin: 30px;
             padding: 15px;
             }
-        
+        h2 {
+            color:red
+
+        }
+        #Acerca-de-mi{
+            background-color:bisque;
+        }
+        #Mis-habilidades {
+            background-color: bisque;
+        }
+        #Experiencia{
+            background-color: bisque;
+        }
+        #Contacto{
+            background-color: bisque;
+        }
+        #Proyectos {
+            background-color:bisque;
+        }
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 5px;
+            padding-top: 40px;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: red;
+            box-shadow: 0 0 5px rgba(0 0 0 5)
+        }
+         .menu-item {
+            text-decoration: none;
+            color:black;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+         }
+         .menu-item:hover {
+            background-color: rgb(165, 164, 164);
+            transition: all 0.4s ease-in-out;
+         }
+         header {
+            background-color: red;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 0px;
+            left: 0;
+            top: 0;
+          }
